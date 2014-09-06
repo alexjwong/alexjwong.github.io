@@ -84,6 +84,16 @@
         'Thanks for logging in, ' + response.name + '!';
     });
   }
+
+  function displayFriends() {
+    console.log('Fetching friends... ');
+    FB.api("/me/friends", function(response) {
+      if (response && !response.error) {
+        document.getElementById()('status').innerHTML = response.data;
+      }
+    }
+);
+  }
 </script>
 
 <!--
