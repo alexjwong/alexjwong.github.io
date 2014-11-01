@@ -106,7 +106,7 @@ footer {
 
 
 /**********************************
-PAGE: PORTFOLIO
+PAGE: PROJECTS
 ***********************************/
 
 #gallery {
@@ -189,9 +189,9 @@ body {
   color: #999;
 }
 
-/* green header */
+/* red header */
 header {
-  background: #6ab47b;
+  background: #cc0000;
   border-color: #599a68;
 }
 
